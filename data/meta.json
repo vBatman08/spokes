@@ -1,0 +1,104 @@
+{
+  "generatedAt": "2026-11-15",
+  "feeds": [
+    {
+      "agencyId": "bart",
+      "url": "https://www.bart.gov/dev/schedules/google_transit.zip",
+      "feedVersion": "72",
+      "downloadedAt": "2026-11-15",
+      "serviceStart": "2026-08-10",
+      "serviceEnd": "2027-01-10",
+      "sourceNote": "",
+      "lineCount": 6,
+      "stationCount": 50
+    },
+    {
+      "agencyId": "caltrain",
+      "url": "https://data.trilliumtransit.com/gtfs/caltrain-ca-us/caltrain-ca-us.zip",
+      "feedVersion": "UTC: 13-Nov-2026 14:55",
+      "downloadedAt": "2026-11-15",
+      "serviceStart": "2026-01-31",
+      "serviceEnd": "2027-01-31",
+      "sourceNote": "",
+      "lineCount": 2,
+      "stationCount": 30
+    },
+    {
+      "agencyId": "muni",
+      "url": "https://muni-gtfs.apps.sfmta.com/data/muni_gtfs-current.zip",
+      "feedVersion": "",
+      "downloadedAt": "2026-11-15",
+      "serviceStart": "2026-08-29",
+      "serviceEnd": "2027-01-15",
+      "sourceNote": "",
+      "lineCount": 10,
+      "stationCount": 225
+    },
+    {
+      "agencyId": "vta",
+      "url": "https://gtfs.vta.org/gtfs_vta.zip",
+      "feedVersion": "2026-10-09_14:57",
+      "downloadedAt": "2026-11-15",
+      "serviceStart": "2026-10-26",
+      "serviceEnd": "2027-01-10",
+      "sourceNote": "",
+      "lineCount": 3,
+      "stationCount": 59
+    },
+    {
+      "agencyId": "smart",
+      "url": "https://data.trilliumtransit.com/gtfs/smart-ca-us/smart-ca-us.zip",
+      "feedVersion": "UTC: 14-Apr-2026 15:07",
+      "downloadedAt": "2026-11-15",
+      "serviceStart": "2026-04-12",
+      "serviceEnd": "2027-01-10",
+      "sourceNote": "",
+      "lineCount": 1,
+      "stationCount": 14
+    },
+    {
+      "agencyId": "ace",
+      "url": "https://api.511.org/transit/datafeeds?operator_id=CE",
+      "feedVersion": "20261102",
+      "downloadedAt": "2026-11-15",
+      "serviceStart": "2025-01-01",
+      "serviceEnd": "2027-12-31",
+      "sourceNote": "Official ACE feed from 511 (511 is the Bay Area's official transit information service)",
+      "lineCount": 1,
+      "stationCount": 10
+    },
+    {
+      "agencyId": "capitol-corridor",
+      "url": "https://www.capitolcorridor.org/wp-content/uploads/2026/11/GTFS.zip",
+      "feedVersion": "",
+      "downloadedAt": "2026-11-15",
+      "serviceStart": "2026-10-26",
+      "serviceEnd": "2027-01-03",
+      "sourceNote": "",
+      "lineCount": 1,
+      "stationCount": 18
+    },
+    {
+      "agencyId": "sf-bay-ferry",
+      "url": "https://gtfs.sanfranciscobayferry.com/gtfs.zip",
+      "feedVersion": "2026-11-04",
+      "downloadedAt": "2026-11-15",
+      "serviceStart": "2026-11-02",
+      "serviceEnd": "2027-02-28",
+      "sourceNote": "",
+      "lineCount": 7,
+      "stationCount": 11
+    },
+    {
+      "agencyId": "golden-gate-ferry",
+      "url": "https://realtime.goldengate.org/gtfsstatic/GTFSTransitData.zip",
+      "feedVersion": "",
+      "downloadedAt": "2026-11-15",
+      "serviceStart": "2026-09-13",
+      "serviceEnd": "2026-12-12",
+      "sourceNote": "",
+      "lineCount": 4,
+      "stationCount": 5
+    }
+  ]
+}

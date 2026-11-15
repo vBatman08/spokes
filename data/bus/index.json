@@ -1,0 +1,514 @@
+{
+  "generatedAt": "2026-11-15",
+  "source": {
+    "name": "511 SF Bay open data from the Metropolitan Transportation Commission",
+    "url": "https://511.org/open-data/transit"
+  },
+  "agencies": [
+    {
+      "id": "ac-transit",
+      "name": "AC Transit",
+      "blurb": "Buses across Alameda and western Contra Costa counties, with Transbay service to San Francisco and the Peninsula.",
+      "color": "#FF18C6",
+      "website": "https://www.actransit.org",
+      "routeCount": 123,
+      "stopCount": 4682
+    },
+    {
+      "id": "commute-org-shuttles",
+      "name": "Commute.org Shuttles",
+      "blurb": "Shuttles in San Mateo County that connect employers and neighborhoods to Caltrain, BART and the ferry.",
+      "color": "#BE7C56",
+      "website": "https://www.commute.org",
+      "routeCount": 20,
+      "stopCount": 234
+    },
+    {
+      "id": "county-connection",
+      "name": "County Connection",
+      "blurb": "Buses in central Contra Costa County, including Concord, Walnut Creek and San Ramon.",
+      "color": "#CF51F8",
+      "website": "https://www.countyconnection.com",
+      "routeCount": 51,
+      "stopCount": 1200
+    },
+    {
+      "id": "rio-vista-delta-breeze",
+      "name": "Delta Breeze",
+      "blurb": "Bus service in Rio Vista, with a route to Fairfield.",
+      "color": "#F77D6A",
+      "website": "https://www.riovistacity.com/deltabreeze/page/delta-breeze-transit-schedule",
+      "routeCount": 1,
+      "stopCount": 63
+    },
+    {
+      "id": "dumbarton-express",
+      "name": "Dumbarton Express",
+      "blurb": "Express buses across the Dumbarton Bridge between Union City BART and Palo Alto.",
+      "color": "#FB3E8E",
+      "website": "https://dumbartonexpress.com",
+      "routeCount": 2,
+      "stopCount": 72
+    },
+    {
+      "id": "emery-go-round",
+      "name": "Emery Go-Round",
+      "blurb": "Free shuttle buses in Emeryville, linking MacArthur BART and Emeryville.",
+      "color": "#C9D467",
+      "website": "https://www.emerygoround.com",
+      "routeCount": 2,
+      "stopCount": 41
+    },
+    {
+      "id": "fast",
+      "name": "FAST",
+      "blurb": "Fairfield and Suisun Transit buses in Fairfield, Suisun City and nearby Solano County.",
+      "color": "#A58922",
+      "website": "https://www.fasttransit.org",
+      "routeCount": 5,
+      "stopCount": 124
+    },
+    {
+      "id": "sf-rec-and-park",
+      "name": "Golden Gate Park Shuttle",
+      "blurb": "Free Golden Gate Park shuttle in San Francisco.",
+      "color": "#CC67B5",
+      "website": "https://www.sfrecpark.org/1617/Golden-Gate-Park-Free-Shuttle",
+      "routeCount": 1,
+      "stopCount": 18
+    },
+    {
+      "id": "golden-gate-transit",
+      "name": "Golden Gate Transit",
+      "blurb": "Buses between San Francisco, Marin and Sonoma counties.",
+      "color": "#E76324",
+      "website": "https://www.goldengate.org/bus/",
+      "routeCount": 10,
+      "stopCount": 246
+    },
+    {
+      "id": "san-leandro-links",
+      "name": "LINKS",
+      "blurb": "Free shuttle in San Leandro.",
+      "color": "#7D87CA",
+      "website": "https://sanleandrolinks.com",
+      "routeCount": 2,
+      "stopCount": 29
+    },
+    {
+      "id": "marin-transit",
+      "name": "Marin Transit",
+      "blurb": "Local buses across Marin County.",
+      "color": "#34ACDD",
+      "website": "https://marintransit.gov",
+      "routeCount": 20,
+      "stopCount": 539
+    },
+    {
+      "id": "mission-bay-tma",
+      "name": "Mission Bay Shuttle",
+      "blurb": "Shuttles in the Mission Bay neighborhood of San Francisco, run by the Mission Bay Transportation Management Association.",
+      "color": "#9CDBA2",
+      "website": "https://www.missionbaytma.org",
+      "routeCount": 4,
+      "stopCount": 19
+    },
+    {
+      "id": "mountain-view-community-shuttle",
+      "name": "Mountain View Community Shuttle",
+      "blurb": "Free community shuttle in Mountain View.",
+      "color": "#F4C487",
+      "website": "https://mvcommunityshuttle.com",
+      "routeCount": 2,
+      "stopCount": 58
+    },
+    {
+      "id": "muni",
+      "name": "Muni",
+      "blurb": "San Francisco buses, trolley buses, light rail and cable cars, run by the SFMTA (San Francisco Municipal Transportation Agency).",
+      "color": "#FF9F1C",
+      "website": "https://www.sfmta.com",
+      "routeCount": 58,
+      "stopCount": 2951
+    },
+    {
+      "id": "mvgo",
+      "name": "MVgo",
+      "blurb": "Free shuttles in Mountain View.",
+      "color": "#F4B9F5",
+      "website": "https://mvgo.org",
+      "routeCount": 4,
+      "stopCount": 34
+    },
+    {
+      "id": "petaluma-transit",
+      "name": "Petaluma Transit",
+      "blurb": "Buses in Petaluma.",
+      "color": "#0DA061",
+      "website": "https://petalumatransit.com",
+      "routeCount": 11,
+      "stopCount": 152
+    },
+    {
+      "id": "presidio-go",
+      "name": "PresidiGo",
+      "blurb": "Free shuttle in the Presidio of San Francisco. Some weekday commute trips on the Downtown route are for Presidio residents and workers only.",
+      "color": "#39EA4E",
+      "website": "https://www.presidio.gov/shuttle",
+      "routeCount": 2,
+      "stopCount": 31
+    },
+    {
+      "id": "samtrans",
+      "name": "SamTrans",
+      "blurb": "Buses across San Mateo County, with service into San Francisco and Palo Alto.",
+      "color": "#89E314",
+      "website": "https://www.samtrans.com",
+      "routeCount": 75,
+      "stopCount": 1839
+    },
+    {
+      "id": "santa-rosa-citybus",
+      "name": "Santa Rosa CityBus",
+      "blurb": "Buses in Santa Rosa.",
+      "color": "#FBA15F",
+      "website": "https://srcitybus.org",
+      "routeCount": 15,
+      "stopCount": 400
+    },
+    {
+      "id": "solano-route-30",
+      "name": "Solano Route 30",
+      "blurb": "Route 30 buses from Solano County to Davis and Sacramento.",
+      "color": "#857AFE",
+      "website": "https://solanomobility.org/program/route30/",
+      "routeCount": 2,
+      "stopCount": 3
+    },
+    {
+      "id": "soltrans",
+      "name": "SolTrans",
+      "blurb": "Buses in Vallejo and Benicia, run by Solano County Transit.",
+      "color": "#CB7276",
+      "website": "https://soltrans.org",
+      "routeCount": 15,
+      "stopCount": 304
+    },
+    {
+      "id": "sonoma-county-transit",
+      "name": "Sonoma County Transit",
+      "blurb": "Buses across Sonoma County, linking Santa Rosa and other towns.",
+      "color": "#E673EF",
+      "website": "https://sctransit.com",
+      "routeCount": 26,
+      "stopCount": 1018
+    },
+    {
+      "id": "south-san-francisco-shuttle",
+      "name": "South San Francisco Shuttle",
+      "blurb": "Free city shuttles in South San Francisco.",
+      "color": "#B8BD15",
+      "website": "https://www.ssfca.gov",
+      "routeCount": 3,
+      "stopCount": 70
+    },
+    {
+      "id": "tri-delta-transit",
+      "name": "Tri Delta Transit",
+      "blurb": "Buses in eastern Contra Costa County, including Antioch, Pittsburg, Brentwood and Oakley.",
+      "color": "#7E9350",
+      "website": "https://trideltatransit.com",
+      "routeCount": 11,
+      "stopCount": 407
+    },
+    {
+      "id": "union-city-transit",
+      "name": "Union City Transit",
+      "blurb": "Buses in Union City, with links to Union City BART.",
+      "color": "#AADC47",
+      "website": "https://www.unioncityca.gov/170/Union-City-Transit",
+      "routeCount": 6,
+      "stopCount": 162
+    },
+    {
+      "id": "vacaville-city-coach",
+      "name": "Vacaville City Coach",
+      "blurb": "Buses in Vacaville.",
+      "color": "#249C84",
+      "website": "https://citycoach.com",
+      "routeCount": 5,
+      "stopCount": 187
+    },
+    {
+      "id": "vine",
+      "name": "VINE Transit",
+      "blurb": "Buses in Napa County, with routes to Calistoga, Vallejo and El Cerrito del Norte BART.",
+      "color": "#8CC565",
+      "website": "https://vinetransit.com",
+      "routeCount": 13,
+      "stopCount": 291
+    },
+    {
+      "id": "vta",
+      "name": "VTA",
+      "blurb": "Buses across Santa Clara County, including San José, Palo Alto and Sunnyvale.",
+      "color": "#4ADE80",
+      "website": "https://www.vta.org",
+      "routeCount": 64,
+      "stopCount": 3102
+    },
+    {
+      "id": "westcat",
+      "name": "WestCAT",
+      "blurb": "Buses in western Contra Costa County, including Pinole, Hercules and Rodeo.",
+      "color": "#AA7AB6",
+      "website": "https://www.westcat.org",
+      "routeCount": 12,
+      "stopCount": 219
+    },
+    {
+      "id": "wheels",
+      "name": "Wheels",
+      "blurb": "Buses in Livermore, Pleasanton and Dublin, run by the Livermore Amador Valley Transit Authority.",
+      "color": "#E94CBA",
+      "website": "https://wheelsbus.com",
+      "routeCount": 30,
+      "stopCount": 649
+    }
+  ],
+  "feeds": [
+    {
+      "agencyId": "ac-transit",
+      "operatorId": "AC",
+      "downloadedAt": "2026-11-15",
+      "serviceStart": "2026-08-09",
+      "serviceEnd": "2027-04-03"
+    },
+    {
+      "agencyId": "commute-org-shuttles",
+      "operatorId": "CM",
+      "downloadedAt": "2026-11-15",
+      "serviceStart": "2026-11-05",
+      "serviceEnd": "2027-06-30"
+    },
+    {
+      "agencyId": "county-connection",
+      "operatorId": "CC",
+      "downloadedAt": "2026-11-15",
+      "serviceStart": "2026-08-23",
+      "serviceEnd": "2027-01-09"
+    },
+    {
+      "agencyId": "rio-vista-delta-breeze",
+      "operatorId": "RV",
+      "downloadedAt": "2026-11-15",
+      "serviceStart": "2021-06-22",
+      "serviceEnd": "2027-12-31",
+      "lastGenerated": "2026-01-05"
+    },
+    {
+      "agencyId": "dumbarton-express",
+      "operatorId": "DE",
+      "downloadedAt": "2026-11-15",
+      "serviceStart": "2026-08-10",
+      "serviceEnd": "2027-01-08"
+    },
+    {
+      "agencyId": "emery-go-round",
+      "operatorId": "EM",
+      "downloadedAt": "2026-11-15",
+      "serviceStart": "2023-12-24",
+      "serviceEnd": "2027-11-27",
+      "lastGenerated": "2026-01-23"
+    },
+    {
+      "agencyId": "fast",
+      "operatorId": "FS",
+      "downloadedAt": "2026-11-15",
+      "serviceStart": "2026-08-12",
+      "serviceEnd": "2027-06-30",
+      "lastGenerated": "2026-09-28"
+    },
+    {
+      "agencyId": "sf-rec-and-park",
+      "operatorId": "GP",
+      "downloadedAt": "2026-11-15",
+      "serviceStart": "2025-12-29",
+      "serviceEnd": "2026-12-31",
+      "lastGenerated": "2025-12-30"
+    },
+    {
+      "agencyId": "golden-gate-transit",
+      "operatorId": "GG",
+      "downloadedAt": "2026-11-15",
+      "serviceStart": "2026-09-13",
+      "serviceEnd": "2026-12-12"
+    },
+    {
+      "agencyId": "san-leandro-links",
+      "operatorId": "SL",
+      "downloadedAt": "2026-11-15",
+      "serviceStart": "2022-07-01",
+      "serviceEnd": "2029-06-30",
+      "lastGenerated": "2026-04-09"
+    },
+    {
+      "agencyId": "marin-transit",
+      "operatorId": "MA",
+      "downloadedAt": "2026-11-15",
+      "serviceStart": "2026-09-13",
+      "serviceEnd": "2027-01-10",
+      "lastGenerated": "2026-10-20"
+    },
+    {
+      "agencyId": "mission-bay-tma",
+      "operatorId": "MB",
+      "downloadedAt": "2026-11-15",
+      "serviceStart": "2025-07-15",
+      "serviceEnd": "2027-01-12",
+      "lastGenerated": "2026-09-26"
+    },
+    {
+      "agencyId": "mountain-view-community-shuttle",
+      "operatorId": "MC",
+      "downloadedAt": "2026-11-15",
+      "serviceStart": "2024-11-29",
+      "serviceEnd": "2027-10-10",
+      "lastGenerated": "2026-10-22"
+    },
+    {
+      "agencyId": "muni",
+      "operatorId": "SF",
+      "downloadedAt": "2026-11-15",
+      "serviceStart": "2026-08-29",
+      "serviceEnd": "2027-01-15",
+      "lastGenerated": "2026-08-29"
+    },
+    {
+      "agencyId": "mvgo",
+      "operatorId": "MV",
+      "downloadedAt": "2026-11-15",
+      "serviceStart": "2025-10-01",
+      "serviceEnd": "2027-10-01",
+      "lastGenerated": "2026-11-12"
+    },
+    {
+      "agencyId": "petaluma-transit",
+      "operatorId": "PE",
+      "downloadedAt": "2026-11-15",
+      "serviceStart": "2026-08-10",
+      "serviceEnd": "2099-12-31",
+      "lastGenerated": "2026-11-04"
+    },
+    {
+      "agencyId": "presidio-go",
+      "operatorId": "PG",
+      "downloadedAt": "2026-11-15",
+      "serviceStart": "2022-05-30",
+      "serviceEnd": "2099-12-31",
+      "lastGenerated": "2026-11-02"
+    },
+    {
+      "agencyId": "samtrans",
+      "operatorId": "SM",
+      "downloadedAt": "2026-11-15",
+      "serviceStart": "2026-11-15",
+      "serviceEnd": "2027-01-09",
+      "lastGenerated": "2026-11-02"
+    },
+    {
+      "agencyId": "santa-rosa-citybus",
+      "operatorId": "SR",
+      "downloadedAt": "2026-11-15",
+      "serviceStart": "2026-09-29",
+      "serviceEnd": "2027-02-13",
+      "lastGenerated": "2026-11-09"
+    },
+    {
+      "agencyId": "solano-route-30",
+      "operatorId": "SE",
+      "downloadedAt": "2026-11-15",
+      "serviceStart": "2026-08-03",
+      "serviceEnd": "2028-07-31",
+      "lastGenerated": "2026-10-07"
+    },
+    {
+      "agencyId": "soltrans",
+      "operatorId": "ST",
+      "downloadedAt": "2026-11-15",
+      "serviceStart": "2026-11-12",
+      "serviceEnd": "2026-12-27",
+      "lastGenerated": "2026-11-13"
+    },
+    {
+      "agencyId": "sonoma-county-transit",
+      "operatorId": "SO",
+      "downloadedAt": "2026-11-15",
+      "serviceStart": "2026-10-30",
+      "serviceEnd": "2027-02-13",
+      "lastGenerated": "2026-11-05"
+    },
+    {
+      "agencyId": "south-san-francisco-shuttle",
+      "operatorId": "SS",
+      "downloadedAt": "2026-11-15",
+      "serviceStart": "2024-06-24",
+      "serviceEnd": "2027-01-01",
+      "lastGenerated": "2026-06-18"
+    },
+    {
+      "agencyId": "tri-delta-transit",
+      "operatorId": "3D",
+      "downloadedAt": "2026-11-15",
+      "serviceStart": "2026-08-09",
+      "serviceEnd": "2027-12-31"
+    },
+    {
+      "agencyId": "union-city-transit",
+      "operatorId": "UC",
+      "downloadedAt": "2026-11-15",
+      "serviceStart": "2026-08-13",
+      "serviceEnd": "2027-08-16",
+      "lastGenerated": "2026-11-04"
+    },
+    {
+      "agencyId": "vacaville-city-coach",
+      "operatorId": "VC",
+      "downloadedAt": "2026-11-15",
+      "serviceStart": "2026-06-18",
+      "serviceEnd": "2026-12-31",
+      "lastGenerated": "2026-09-24"
+    },
+    {
+      "agencyId": "vine",
+      "operatorId": "VN",
+      "downloadedAt": "2026-11-15",
+      "serviceStart": "2026-10-19",
+      "serviceEnd": "2026-12-31",
+      "lastGenerated": "2026-10-19"
+    },
+    {
+      "agencyId": "vta",
+      "operatorId": "SC",
+      "downloadedAt": "2026-11-15",
+      "serviceStart": "2026-10-26",
+      "serviceEnd": "2027-01-10"
+    },
+    {
+      "agencyId": "westcat",
+      "operatorId": "WC",
+      "downloadedAt": "2026-11-15",
+      "serviceStart": "2026-09-12",
+      "serviceEnd": "2027-06-11",
+      "lastGenerated": "2026-09-03"
+    },
+    {
+      "agencyId": "wheels",
+      "operatorId": "WH",
+      "downloadedAt": "2026-11-15",
+      "serviceStart": "2026-09-21",
+      "serviceEnd": "2027-01-29",
+      "lastGenerated": "2026-09-22"
+    }
+  ]
+}
